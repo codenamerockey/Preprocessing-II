@@ -253,3 +253,11 @@ nav a {
   font-size: 3rem;
   margin-top: 20px;
 }
+.home .btn {
+  color: white;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 15px 7px;
+  border-radius: 10px;
+  background-color: teal;
+}
