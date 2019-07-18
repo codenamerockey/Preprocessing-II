@@ -318,6 +318,13 @@ nav a {
   padding: 15px 7px;
   border-radius: 10px;
   background-color: #72abbd;
+  transition: 1.2s;
+}
+.home .content-pick .btn:hover {
+  color: aqua;
+  background: white;
+  border: 1px solid aqua;
+  cursor: pointer;
 }
 .home section.image h2 {
   font-size: 3rem;
