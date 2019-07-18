@@ -1,1 +1,24 @@
 // Mixins in here
+
+.displayFlex(@justify, @align) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.funBusButtons(@color, @border,@backgroundColor) {
+  color: @color;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 15px 7px;
+  border-radius: @border;
+  background-color: @backgroundColor;
+  transition: 1.2s;
+
+  &:hover {
+    color: aqua;
+    background: white;
+    border: 1px solid aqua;
+    cursor: pointer;
+  }
+}
