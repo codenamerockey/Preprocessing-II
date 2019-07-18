@@ -249,3 +249,7 @@ nav a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home section.image h2 {
+  font-size: 3rem;
+  margin-top: 20px;
+}
