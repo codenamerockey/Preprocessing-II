@@ -257,6 +257,12 @@ nav a {
   padding-bottom: 30px;
   border-bottom: 2px dashed #c0c0c0;
 }
+@media (max-width: 500px) {
+  .home .inverse-content {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
 .home .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
@@ -274,6 +280,11 @@ nav a {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 90%;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -283,21 +294,34 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
 }
-.home section.image h2 {
-  font-size: 3rem;
-  margin-top: 20px;
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 90%;
+    margin: 20px auto;
+  }
 }
-.home .btn {
+.home .content-pick .btn {
   color: white;
   text-align: center;
   font-size: 1.6rem;
   padding: 15px 7px;
   border-radius: 10px;
-  background-color: teal;
+  background-color: #72abbd;
+}
+.home section.image h2 {
+  font-size: 3rem;
+  margin-top: 20px;
 }
 .home section.image {
   border-bottom: 2px dashed #c0c0c0;
